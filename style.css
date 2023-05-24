@@ -1,0 +1,71 @@
+body {
+    /* background-color: #cda4cc37; */
+    background-image: url(https://images.pexels.com/photos/9969347/pexels-photo-9969347.jpeg?auto=compreshttps://images.pexels.com/photos/9969347/pexels-photo-9969347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1s&cs=tinysrgb&w=1260&h=750&dpr=1);
+    display: grid;
+    /* grid-row: 200px 200px 200px;
+    grid-column-start: 1;
+    grid-column-end: 0;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 1em;
+}
+
+a:hover {
+    color: rgb(145, 171, 171);
+}
+
+.h1 {
+    text-align: center;
+    color: rgba(226, 219, 219, 0.642);
+    padding-top: 100px;
+    background-color: #666060;
+}
+
+.img {
+    border: solid 7px chocolate;
+    margin: 26px;
+    width: 350px;
+}
+
+.img2 {
+    width: 350px;
+    background-color: #fff;
+}
+
+.h2 {
+    text-align: center;
+    color: rgb(7, 7, 7);
+    padding-top: 100px;
+    background-image: url(https://photoshop-kopona.com/uploads/posts/2018-02/1519074061_old_paper-2.jpg);
+
+}
+
+.paragraph {
+    border: solid 1px darkmagenta;
+    margin: auto;
+    padding: 10px;
+    font-size: large;
+    background-color: #fff;
+}
+
+.paragraph_2 {
+    height: 300px;
+    border: solid 1px darkmagenta;
+    margin: 10px;
+    padding: 50px;
+    display: grid;
+    font-size: medium;
+    background-color: #fff;
+}
+
+.link {
+    color: rgb(48, 30, 9);
+    margin: auto;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    
+}
